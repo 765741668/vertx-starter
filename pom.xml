@@ -24,7 +24,8 @@
     <vertx.version>3.8.3</vertx.version>
     <junit-jupiter.version>5.4.0</junit-jupiter.version>
     <HikariCP.version>3.2.0</HikariCP.version>
-    <start-class>com.example.starter.MainVerticle</start-class>
+    <!--<start-class>com.orochi.starter.APP</start-class>-->
+    <main.verticle>com.orochi.starter.APP</main.verticle>
     <org.reflections.version>0.9.11</org.reflections.version>
     <tk.mybatis.mapper.version>4.0.2</tk.mybatis.mapper.version>
     <mysql-connector-java.version>5.1.47</mysql-connector-java.version>

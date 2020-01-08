@@ -24,7 +24,7 @@ public class DeployVertxListener {
     /**
      * 异步服务所在包路径
      */
-    @Value("${async-service-impl-packages:com.orochi.vertx.service.impl,com.orochi.vertx.service2.impl}")
+    @Value("${async-service-impl-packages:ccom.orochi.starter.service.service.impl,com.orochi.starter.service.service2.impl}")
     private String asyncServiceImplPackages;
 
     /**

@@ -130,7 +130,7 @@ public class RouterHandlerFactory {
                 try {
                     registerNewHandler(router, handler);
                 } catch (Exception e) {
-                    LOGGER.error("Error register {}", handler);
+                    LOGGER.error("Error register {}", handler,e);
                 }
             }
         } catch (Exception e) {

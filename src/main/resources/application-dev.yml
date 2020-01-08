@@ -28,7 +28,7 @@ mybatis:
 #webApi扫描包路径
 controller-api-packages: com.orochi.starter.service.controller
 #异步服务扫描包路径
-async-service-impl-packages: com.orochi.vertx.service.impl,com.orochi.vertx.service2.impl
+async-service-impl-packages: com.orochi.starter.service.service.impl,com.orochi.starter.service.service2.impl
 #Http服务器端口号
 http-server-port: 8899
 #工作线程池大小
