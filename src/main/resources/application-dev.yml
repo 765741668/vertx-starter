@@ -1,0 +1,13 @@
+#webApi扫描包路径
+controller-api-packages: com.orochi.vertx.service.controller
+#异步服务扫描包路径
+async-service-impl-packages: com.orochi.vertx.service.impl,com.orochi.vertx.service2.impl
+#Http服务器端口号
+http-server-port: 8899
+#工作线程池大小
+worker-pool-size: 100
+#异步服务实例数，建议与CPU核数相同
+async-service-instances: 4
+event-bus-connect-timeout: 10000
+#是否开启智能MVC路由, true: 开启智能MVC模式性能低,但符合传统编码风格，false：使用手动注册路由方式性能高，但每个接口需要手动进行路由注册
+enable.mvc: false
