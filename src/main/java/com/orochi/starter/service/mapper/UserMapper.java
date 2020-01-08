@@ -1,6 +1,6 @@
-package com.orochi.starter.mapper;
+package com.orochi.starter.service.mapper;
 
-import com.orochi.starter.entity.User;
+import com.orochi.starter.service.entity.User;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import tk.mybatis.mapper.common.Mapper;

@@ -26,7 +26,7 @@ mybatis:
   type-aliases-package: com.orochi.vertx.entity
 
 #webApi扫描包路径
-controller-api-packages: com.orochi.vertx.service.controller
+controller-api-packages: com.orochi.starter.service.controller
 #异步服务扫描包路径
 async-service-impl-packages: com.orochi.vertx.service.impl,com.orochi.vertx.service2.impl
 #Http服务器端口号

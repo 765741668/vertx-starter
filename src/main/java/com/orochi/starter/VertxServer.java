@@ -11,7 +11,7 @@ public class VertxServer extends AbstractVerticle {
   public void start(Promise<Void> startPromise) throws Exception {
     Router router = Router.router(vertx);
     // 将"/"绑定到我们的hello消息 - 从而保持兼容性
-    router.get("/testVm/:id").handler(this::queryNormal);
+    router.get("/restapp/testVm/:id").handler(this::queryNormal);
     vertx.createHttpServer().requestHandler(router).listen(8899, http -> {
       if (http.succeeded()) {
         startPromise.complete();

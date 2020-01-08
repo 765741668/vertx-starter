@@ -1,6 +1,5 @@
-package com.orochi.starter.entity;
+package com.orochi.starter.service.entity;
 
-import io.vertx.codegen.annotations.DataObject;
 import io.vertx.core.json.JsonObject;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;

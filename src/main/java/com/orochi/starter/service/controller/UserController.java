@@ -1,4 +1,4 @@
-package com.orochi.starter.controller;
+package com.orochi.starter.service.controller;
 
 import static java.net.HttpURLConnection.HTTP_OK;
 
